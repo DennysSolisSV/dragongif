@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dragongif/static/css/main.fdf3a1d2.chunk.css",
+    "main.js": "/dragongif/static/js/main.7bdeda99.chunk.js",
+    "main.js.map": "/dragongif/static/js/main.7bdeda99.chunk.js.map",
+    "runtime-main.js": "/dragongif/static/js/runtime-main.c32be961.js",
+    "runtime-main.js.map": "/dragongif/static/js/runtime-main.c32be961.js.map",
+    "static/js/2.3949897b.chunk.js": "/dragongif/static/js/2.3949897b.chunk.js",
+    "static/js/2.3949897b.chunk.js.map": "/dragongif/static/js/2.3949897b.chunk.js.map",
+    "index.html": "/dragongif/index.html",
+    "static/css/main.fdf3a1d2.chunk.css.map": "/dragongif/static/css/main.fdf3a1d2.chunk.css.map",
+    "static/js/2.3949897b.chunk.js.LICENSE.txt": "/dragongif/static/js/2.3949897b.chunk.js.LICENSE.txt",
+    "static/media/logo.ed71ac55.png": "/dragongif/static/media/logo.ed71ac55.png",
+    "static/media/twitter-logo.d89d9a86.svg": "/dragongif/static/media/twitter-logo.d89d9a86.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c32be961.js",
+    "static/js/2.3949897b.chunk.js",
+    "static/css/main.fdf3a1d2.chunk.css",
+    "static/js/main.7bdeda99.chunk.js"
+  ]
+}
