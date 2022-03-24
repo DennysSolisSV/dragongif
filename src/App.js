@@ -136,7 +136,7 @@ const App = () => {
         accounts: {
           baseAccount: baseAccount.publicKey,
         },
-        signers: [baseAccount],
+        signers: [provider.wallet],
       });
       
       
