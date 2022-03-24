@@ -132,12 +132,15 @@ const App = () => {
     try {
       const provider = getProvider();
       const program = new Program(idl, programID, provider);
-      await program.rpc.likeUp(gifId, {
+      const tx1 = await program.rpc.likeUp(gifId, {
         accounts: {
           baseAccount: baseAccount.publicKey,
+          authority: provider.wallet.publicKey
         },
-        signers: [provider.wallet],
+        signers: [provider.wallet.payer],
       });
+      
+      
       
       
       console.log("GIF sucesfully sent like", gifId)
