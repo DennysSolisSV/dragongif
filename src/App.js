@@ -136,7 +136,10 @@ const App = () => {
         accounts: {
           baseAccount: baseAccount.publicKey,
         },
+        signers: [baseAccount],
       });
+      
+      
       console.log("GIF sucesfully sent like", gifId)
   
       await getGifList();
@@ -307,6 +310,8 @@ const App = () => {
         },
         signers: [baseAccount]
       });
+      
+      
       console.log("Created a new BaseAccount w/ address:", baseAccount.publicKey.toString())
       await getGifList();
   
